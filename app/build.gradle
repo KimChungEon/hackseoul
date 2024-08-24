@@ -43,6 +43,10 @@ dependencies {
     // OkHttp
     implementation 'com.squareup.okhttp3:okhttp:4.10.0'
     implementation 'com.squareup.okhttp3:logging-interceptor:4.10.0'
+
+    // Google Map
+    implementation 'com.google.android.gms:play-services-maps:19.0.0'
+    implementation 'com.google.android.gms:play-services-location:21.3.0'
     implementation libs.androidx.core.ktx
     implementation libs.androidx.appcompat
     implementation libs.material
